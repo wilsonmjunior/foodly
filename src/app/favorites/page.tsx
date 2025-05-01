@@ -1,9 +1,9 @@
-import { HeaderWithBack } from '@/presentation/components';
+import { BackButton } from '@/presentation/components';
 
 export default function FavoritesPage() {
     return (
         <div>
-            <HeaderWithBack />
+            <BackButton />
         </div>
     );
 }

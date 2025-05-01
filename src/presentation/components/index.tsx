@@ -2,7 +2,7 @@ export { Accordion } from './Accordion';
 export { Button } from './Button';
 export { Footer } from './Footer';
 export { Header } from './Header';
-export { HeaderWithBack } from './HeaderWithBack';
+export { BackButton } from './BackButton';
 export { Icon } from './Icon';
 export { CategoryAccordion } from './Screens/Product/components/CategoryAccordion';
 export { ProductQuantity } from './Screens/Product/components/ProductQuantity';
