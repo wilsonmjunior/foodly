@@ -34,7 +34,7 @@ export function ProductItem({ product, quantity, observation, options }: Product
                 <div className="flex-grow"></div>
                 <div className="flex items-center justify-end">
                     <div className="flex flex-row items-center">
-                        <Icon name="Pencil" size={16} className="text-teal-400" />
+                        <Icon name="FoodPencil" size={16} className="text-teal-400" />
                         <Link href={`/catalog/2/product/${product.id}`} prefetch={false}>
                             <span className="text-sm font-bold text-teal-400">editar</span>
                         </Link>
