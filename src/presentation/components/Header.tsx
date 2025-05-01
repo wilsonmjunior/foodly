@@ -14,7 +14,9 @@ export function Header({ children }: HeaderProps) {
     return (
         <header className="p-4 bg-primary-700">
             <div className="flex items-center justify-between">
-                <Image src={Logo} alt="Logo" className="w-10 h-10 object-contain rounded" />
+                <Link href="/">
+                    <Image src={Logo} alt="Logo" className="w-10 h-10 object-contain rounded" />
+                </Link>
 
                 <div>
                     <p className="text-sm text-primary-200">entregando em</p>
