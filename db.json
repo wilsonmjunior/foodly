@@ -61,7 +61,35 @@
             "deliveryFee": 6,
             "deliveryFeeLabel": "R$6,00",
             "deliveryFeeColor": "text-purple-600",
-            "rating": 4.7
+            "rating": 4.3,
+            "address": "Rua Nova, 100 - Centro",
+            "deliveryTime": "30-40 min",
+            "distance": "3.2km",
+            "freeDeliveryMinimum": 25.00,
+            "minimumOrder": 12.00,
+            "openUntil": "22:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Massas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Spaghetti ao Sugo", "description": "Massa com molho de tomate fresco", "price": 19.90 },
+                        { "id": 102, "title": "Lasanha Bolonhesa", "description": "Lasanha recheada com carne e queijo", "price": 24.90 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Refrigerante", "description": "Lata 350ml", "price": 5.00 },
+                        { "id": 202, "title": "Água com gás", "description": "Garrafa 500ml", "price": 4.00 }
+                    ]
+                }
+            ]
         },
         {
             "id": 8,
@@ -70,7 +98,35 @@
             "deliveryFee": 0,
             "deliveryFeeLabel": "grátis",
             "deliveryFeeColor": "text-mint-600",
-            "rating": 4.7
+            "rating": 4.2,
+            "address": "Av. Brasil, 200 - Centro",
+            "deliveryTime": "20-30 min",
+            "distance": "2.5km",
+            "freeDeliveryMinimum": 15.00,
+            "minimumOrder": 8.00,
+            "openUntil": "21:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Salgados",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Coxinha", "description": "Coxinha de frango com catupiry", "price": 7.00 },
+                        { "id": 102, "title": "Esfiha", "description": "Esfiha de carne", "price": 6.00 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Doces",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Brigadeiro", "description": "Unidade", "price": 3.00 },
+                        { "id": 202, "title": "Beijinho", "description": "Unidade", "price": 3.00 }
+                    ]
+                }
+            ]
         },
         {
             "id": 9,
@@ -79,7 +135,35 @@
             "deliveryFee": 6,
             "deliveryFeeLabel": "R$6,00",
             "deliveryFeeColor": "text-purple-600",
-            "rating": 4.7
+            "rating": 4.4,
+            "address": "Rua das Palmeiras, 50 - Centro",
+            "deliveryTime": "40-50 min",
+            "distance": "5.0km",
+            "freeDeliveryMinimum": 35.00,
+            "minimumOrder": 15.00,
+            "openUntil": "23:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Pizzas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Pizza Margherita", "description": "Molho de tomate, mussarela e manjericão", "price": 32.00 },
+                        { "id": 102, "title": "Pizza Calabresa", "description": "Calabresa, cebola e mussarela", "price": 34.00 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Cerveja", "description": "Long neck 330ml", "price": 7.00 },
+                        { "id": 202, "title": "Refrigerante", "description": "Lata 350ml", "price": 5.00 }
+                    ]
+                }
+            ]
         },
         {
             "id": 10,
@@ -328,6 +412,228 @@
                             "description": "500ml",
                             "price": 6.50
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Burger King - Colombo",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 6,
+            "deliveryFeeLabel": "R$6,00",
+            "deliveryFeeColor": "text-purple-600",
+            "rating": 4.6,
+            "address": "Av. Colombo, 789 - Centro",
+            "deliveryTime": "35-45 min",
+            "distance": "4.1km",
+            "freeDeliveryMinimum": 30.00,
+            "minimumOrder": 18.00,
+            "openUntil": "23:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Sanduíches",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Whopper", "description": "Carne grelhada, queijo, tomate, alface, maionese e ketchup", "price": 22.90 },
+                        { "id": 102, "title": "Cheeseburger", "description": "Carne, queijo, ketchup, mostarda e picles", "price": 15.90 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Refrigerante", "description": "Copo 500ml", "price": 6.00 },
+                        { "id": 202, "title": "Suco", "description": "Copo 300ml", "price": 5.50 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "McDonald's – Novo Centro",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.8,
+            "address": "Rua Central, 321 - Novo Centro",
+            "deliveryTime": "25-35 min",
+            "distance": "2.8km",
+            "freeDeliveryMinimum": 40.00,
+            "minimumOrder": 20.00,
+            "openUntil": "21:30",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Lanches",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Big Mac", "description": "Dois hambúrgueres, alface, queijo, molho especial, cebola e picles", "price": 24.90 },
+                        { "id": 102, "title": "McChicken", "description": "Frango empanado, alface e maionese", "price": 19.90 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Sobremesas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Sundae", "description": "Sundae de chocolate ou morango", "price": 8.00 },
+                        { "id": 202, "title": "Casquinha", "description": "Sorvete de baunilha na casquinha", "price": 4.50 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Restaurante 1",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.5,
+            "address": "Rua Exemplo, 555 - Centro",
+            "deliveryTime": "20-30 min",
+            "distance": "1.9km",
+            "freeDeliveryMinimum": 20.00,
+            "minimumOrder": 10.00,
+            "openUntil": "20:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Pratos principais",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Parmegiana", "description": "Bife à parmegiana com arroz e fritas", "price": 29.90 },
+                        { "id": 102, "title": "Strogonoff", "description": "Strogonoff de frango com arroz e batata palha", "price": 27.90 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Água", "description": "Garrafa 500ml", "price": 3.00 },
+                        { "id": 202, "title": "Refrigerante", "description": "Lata 350ml", "price": 5.00 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Restaurante 2",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 6,
+            "deliveryFeeLabel": "R$6,00",
+            "deliveryFeeColor": "text-purple-600",
+            "rating": 4.3,
+            "address": "Rua Nova, 100 - Centro",
+            "deliveryTime": "30-40 min",
+            "distance": "3.2km",
+            "freeDeliveryMinimum": 25.00,
+            "minimumOrder": 12.00,
+            "openUntil": "22:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Massas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Spaghetti ao Sugo", "description": "Massa com molho de tomate fresco", "price": 19.90 },
+                        { "id": 102, "title": "Lasanha Bolonhesa", "description": "Lasanha recheada com carne e queijo", "price": 24.90 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Refrigerante", "description": "Lata 350ml", "price": 5.00 },
+                        { "id": 202, "title": "Água com gás", "description": "Garrafa 500ml", "price": 4.00 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Restaurante 3",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.2,
+            "address": "Av. Brasil, 200 - Centro",
+            "deliveryTime": "20-30 min",
+            "distance": "2.5km",
+            "freeDeliveryMinimum": 15.00,
+            "minimumOrder": 8.00,
+            "openUntil": "21:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Salgados",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Coxinha", "description": "Coxinha de frango com catupiry", "price": 7.00 },
+                        { "id": 102, "title": "Esfiha", "description": "Esfiha de carne", "price": 6.00 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Doces",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Brigadeiro", "description": "Unidade", "price": 3.00 },
+                        { "id": 202, "title": "Beijinho", "description": "Unidade", "price": 3.00 }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Restaurante 4",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 6,
+            "deliveryFeeLabel": "R$6,00",
+            "deliveryFeeColor": "text-purple-600",
+            "rating": 4.4,
+            "address": "Rua das Palmeiras, 50 - Centro",
+            "deliveryTime": "40-50 min",
+            "distance": "5.0km",
+            "freeDeliveryMinimum": 35.00,
+            "minimumOrder": 15.00,
+            "openUntil": "23:00",
+            "categories": [
+                {
+                    "id": 1,
+                    "name": "Pizzas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 101, "title": "Pizza Margherita", "description": "Molho de tomate, mussarela e manjericão", "price": 32.00 },
+                        { "id": 102, "title": "Pizza Calabresa", "description": "Calabresa, cebola e mussarela", "price": 34.00 }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bebidas",
+                    "icon": "",
+                    "image": "",
+                    "items": [
+                        { "id": 201, "title": "Cerveja", "description": "Long neck 330ml", "price": 7.00 },
+                        { "id": 202, "title": "Refrigerante", "description": "Lata 350ml", "price": 5.00 }
                     ]
                 }
             ]
