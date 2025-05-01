@@ -122,7 +122,6 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                         <Image
                             src={StoreNotFound}
                             alt="Estabelecimento"
-                            fill
                             className="object-contain"
                             sizes="164px"
                             style={{ width: '164px', height: '164px' }}
