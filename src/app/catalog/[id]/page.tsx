@@ -3,8 +3,13 @@ import Image from 'next/image';
 import { getItemCatalog } from '@/application/services/catalogService';
 import DeliveryFree from '@/presentation/assets/icons/delivery.svg';
 import DeliveryPaid from '@/presentation/assets/icons/delivery-paid.svg';
-import StoreNotFound from '@/presentation/assets/store-not-found.png';
-import { Footer, Icon, CategoryAccordion, ToastError } from '@/presentation/components';
+import {
+    Footer,
+    Icon,
+    CategoryAccordion,
+    ToastError,
+    NotFoundError,
+} from '@/presentation/components';
 import { formatCurrency } from '@/utils/format/currency';
 
 export default async function CatalogPage({ params }: { params: { id: string } }) {
@@ -117,18 +122,7 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                     )}
                 </div>
             ) : (
-                <div className="flex flex-1 flex-col justify-center items-center">
-                    <div className="relative w-[164px] h-[164px]">
-                        <Image
-                            src={StoreNotFound}
-                            alt="Estabelecimento"
-                            className="object-contain"
-                            sizes="164px"
-                            style={{ width: '164px', height: '164px' }}
-                        />
-                    </div>
-                    <h3 className="text-primary-700">estabelecimento não encontrado</h3>
-                </div>
+                <NotFoundError message="estabelecimento não encontrado" />
             )}
 
             <div className="mt-4">

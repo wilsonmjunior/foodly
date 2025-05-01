@@ -1,6 +1,5 @@
 import { getProductDetails } from '@/application/services/productsService';
-import { Product } from '@/domain/entities/Product';
-import { Footer, ToastError } from '@/presentation/components';
+import { Footer, NotFoundError, ToastError } from '@/presentation/components';
 import { ProductDetails } from '@/presentation/components/Screens/Product/ProductDetails';
 
 type ProductPageParams = {
@@ -11,7 +10,7 @@ type ProductPageParams = {
 };
 
 export default async function ProductPage({ params }: ProductPageParams) {
-    let product = {} as Product;
+    let product = null;
     let error = '';
 
     try {
@@ -24,11 +23,17 @@ export default async function ProductPage({ params }: ProductPageParams) {
 
     return (
         <div className="flex flex-col min-h-screen bg-neutral-100">
-            <ProductDetails product={product} />
+            {product ? (
+                <>
+                    <ProductDetails product={product} />
 
-            <Footer />
+                    <Footer />
 
-            <ToastError message={error} />
+                    <ToastError message={error} />
+                </>
+            ) : (
+                <NotFoundError message="produto não encontrado" />
+            )}
         </div>
     );
 }
