@@ -3,6 +3,7 @@ import { ToastContainer } from 'react-toastify';
 import { StoreInitializer } from '@/presentation/components/StoreInitializer';
 
 import './app.css';
+import { Header } from '@/presentation/components';
 
 const nunitoSans = Nunito_Sans({
     variable: '--font-nunito-sans',
@@ -12,17 +13,14 @@ const nunitoSans = Nunito_Sans({
 export default function RootLayout(
     props: Readonly<{
         children: React.ReactNode;
-        modal: React.ReactNode;
-        payment: React.ReactNode;
     }>,
 ) {
     return (
         <html lang="en">
             <body className={`${nunitoSans.variable} antialiased`}>
+                <Header />
                 <StoreInitializer />
                 {props.children}
-                {props.modal}
-                {props.payment}
                 <ToastContainer />
             </body>
         </html>

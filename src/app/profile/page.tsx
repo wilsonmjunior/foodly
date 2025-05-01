@@ -1,12 +1,11 @@
 import Image from 'next/image';
-import { HeaderWithBack, Icon } from '@/presentation/components';
+
+import { Icon } from '@/presentation/components';
 import { MenuItem } from '@/presentation/components/Screens/Profile';
 
 export default function ProfileScreen() {
     return (
         <div className="flex flex-col min-h-screen bg-gray-100">
-            <HeaderWithBack />
-
             <div className="bg-white rounded-xl mx-4 p-6 mt-4 flex flex-col items-center">
                 <div className="w-24 h-24 bg-gray-300 rounded-full mb-4 overflow-hidden border-4 border-white shadow">
                     <Image

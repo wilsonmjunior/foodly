@@ -4,7 +4,7 @@ import { getItemCatalog } from '@/application/services/catalogService';
 import DeliveryFree from '@/presentation/assets/icons/delivery.svg';
 import DeliveryPaid from '@/presentation/assets/icons/delivery-paid.svg';
 import StoreNotFound from '@/presentation/assets/store-not-found.png';
-import { Footer, Header, Icon, CategoryAccordion, ToastError } from '@/presentation/components';
+import { Footer, Icon, CategoryAccordion, ToastError } from '@/presentation/components';
 import { formatCurrency } from '@/utils/format/currency';
 
 export default async function CatalogPage({ params }: { params: { id: string } }) {
@@ -22,8 +22,6 @@ export default async function CatalogPage({ params }: { params: { id: string } }
 
     return (
         <div className="flex flex-col min-h-[100dvh] md:min-h-screen">
-            <Header />
-
             {itemCatalog ? (
                 <div className="flex-1 bg-white">
                     <div className="p-4">

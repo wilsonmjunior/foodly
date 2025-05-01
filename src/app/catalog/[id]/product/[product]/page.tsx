@@ -1,6 +1,6 @@
 import { getProductDetails } from '@/application/services/productsService';
 import { Product } from '@/domain/entities/Product';
-import { Header, Footer, ToastError } from '@/presentation/components';
+import { Footer, ToastError } from '@/presentation/components';
 import { ProductDetails } from '@/presentation/components/Screens/Product/ProductDetails';
 
 type ProductPageParams = {
@@ -24,8 +24,6 @@ export default async function ProductPage({ params }: ProductPageParams) {
 
     return (
         <div className="flex flex-col min-h-screen bg-neutral-100">
-            <Header />
-
             <ProductDetails product={product} />
 
             <Footer />

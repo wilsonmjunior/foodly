@@ -1,5 +1,5 @@
 import { getCatalog } from '@/application/services/catalogService';
-import { Header, Footer, SearchHeader } from '@/presentation/components';
+import { Footer, SearchHeader } from '@/presentation/components';
 import { Banner, Catalog } from '@/presentation/components/Screens/Home';
 
 export default async function Home() {
@@ -7,11 +7,7 @@ export default async function Home() {
 
     return (
         <div className="flex flex-col min-h-[100dvh] md:min-h-screen">
-            <Header>
-                <div className="mt-4">
-                    <SearchHeader />
-                </div>
-            </Header>
+            <SearchHeader />
 
             <Banner />
 
