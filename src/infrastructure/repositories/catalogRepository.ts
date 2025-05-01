@@ -25,7 +25,7 @@ export const catalogRepository = {
             const catalog = responseCatalog.data;
             return catalog;
         } catch (error) {
-            throw ApiError(error, 'Erro ao carregar item do catalogo. Tente novamente mais tarde.');
+            throw ApiError(error, 'Erro ao carregar estabelecimento. Tente novamente mais tarde.');
         }
     },
 };

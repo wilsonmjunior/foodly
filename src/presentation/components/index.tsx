@@ -1,10 +1,11 @@
 export { Accordion } from './Accordion';
 export { Button } from './Button';
-export { CategoryAccordion } from './Screens/Product/components/CategoryAccordion';
 export { Footer } from './Footer';
 export { Header } from './Header';
 export { HeaderWithBack } from './HeaderWithBack';
 export { Icon } from './Icon';
+export { CategoryAccordion } from './Screens/Product/components/CategoryAccordion';
 export { ProductQuantity } from './Screens/Product/components/ProductQuantity';
 export { SearchHeader } from './SearchHeader';
 export { SumQuantity } from './SumQuantity';
+export { ToastError } from './ToastError';

@@ -3,12 +3,23 @@ import Image from 'next/image';
 import { getItemCatalog } from '@/application/services/catalogService';
 import DeliveryFree from '@/presentation/assets/icons/delivery.svg';
 import DeliveryPaid from '@/presentation/assets/icons/delivery-paid.svg';
-import { Footer, Header, Icon, CategoryAccordion } from '@/presentation/components';
+import Establishment from '@/presentation/assets/store.svg';
+
+import { Footer, Header, Icon, CategoryAccordion, ToastError } from '@/presentation/components';
 import { formatCurrency } from '@/utils/format/currency';
 
 export default async function CatalogPage({ params }: { params: { id: string } }) {
     const catalogId = parseInt(params.id, 10);
-    const itemCatalog = await getItemCatalog(catalogId);
+
+    let itemCatalog = null;
+    let error = '';
+
+    try {
+        itemCatalog = await getItemCatalog(catalogId);
+    } catch (err: unknown) {
+        const appError = err as { message: string };
+        error = appError.message;
+    }
 
     return (
         <div className="flex flex-col min-h-[100dvh] md:min-h-screen">
@@ -108,14 +119,17 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                     )}
                 </div>
             ) : (
-                <div className="flex justify-center items-center">
-                    Estabelecimento não encontrado
+                <div className="flex flex-1 flex-col justify-center items-center gap-2">
+                    <Image src={Establishment} alt="Estabelecimento" width={148} />
+                    <h3 className="text-primary-700">Estabelecimento não encontrado.</h3>
                 </div>
             )}
 
             <div className="mt-4">
                 <Footer />
             </div>
+
+            <ToastError message={error} />
         </div>
     );
 }
