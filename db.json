@@ -26,18 +26,18 @@
         },
         {
             "id": 4,
-            "name": "Burger King - Machado",
-            "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
-            "deliveryFee": 6,
-            "deliveryFeeLabel": "R$10,00",
-            "rating": 4.7
-        },
-        {
-            "id": 5,
             "name": "McDonald's – Novo Centro",
             "image": "https://images.unsplash.com/photo-1619881589316-56c7f9e6b587?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "deliveryFee": 0,
             "deliveryFeeLabel": "grátis",
+            "rating": 4.7
+        },
+        {
+            "id": 5,
+            "name": "Burger King - Machado",
+            "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+            "deliveryFee": 6,
+            "deliveryFeeLabel": "R$10,00",
             "rating": 4.7
         }
     ],
@@ -264,8 +264,8 @@
         },
         {
             "id": 5,
-            "name": "Restaurante 1",
-            "image": "https://images.unsplash.com/photo-1619881589316-56c7f9e6b587?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Burger King - Machado",
+            "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",   
             "deliveryFee": 0,
             "deliveryFeeLabel": "grátis",
             "rating": 4.5,
