@@ -3,8 +3,7 @@ import Image from 'next/image';
 import { getItemCatalog } from '@/application/services/catalogService';
 import DeliveryFree from '@/presentation/assets/icons/delivery.svg';
 import DeliveryPaid from '@/presentation/assets/icons/delivery-paid.svg';
-import Establishment from '@/presentation/assets/store.svg';
-
+import StoreNotFound from '@/presentation/assets/store-not-found.png';
 import { Footer, Header, Icon, CategoryAccordion, ToastError } from '@/presentation/components';
 import { formatCurrency } from '@/utils/format/currency';
 
@@ -119,9 +118,9 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                     )}
                 </div>
             ) : (
-                <div className="flex flex-1 flex-col justify-center items-center gap-2">
-                    <Image src={Establishment} alt="Estabelecimento" width={148} />
-                    <h3 className="text-primary-700">Estabelecimento não encontrado.</h3>
+                <div className="flex flex-1 flex-col justify-center items-center">
+                    <Image src={StoreNotFound} alt="Estabelecimento" width={164} />
+                    <h3 className="text-primary-700">estabelecimento não encontrado</h3>
                 </div>
             )}
 
