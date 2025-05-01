@@ -30,7 +30,6 @@ export interface Establishment {
     image: string;
     deliveryFee: number;
     deliveryFeeLabel: string;
-    deliveryFeeColor: string;
     rating: number;
 }
 

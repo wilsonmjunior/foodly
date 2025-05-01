@@ -14,7 +14,6 @@ export interface Catalog {
     image: string;
     deliveryFee: number;
     deliveryFeeLabel: string;
-    deliveryFeeColor: string;
     rating: number;
 
     address?: string;
