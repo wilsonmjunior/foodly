@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'unsplash.com',
+                hostname: 'i.pinimg.com',
             },
         ],
     },
