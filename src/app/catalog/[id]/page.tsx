@@ -12,8 +12,14 @@ import {
 } from '@/presentation/components';
 import { formatCurrency } from '@/utils/format/currency';
 
-export default async function CatalogPage({ params }: { params: { id: string } }) {
-    const catalogId = parseInt(params.id, 10);
+type ParamsType = Promise<{ id: string }>;
+
+type PageProps = {
+    params: ParamsType;
+};
+
+export default async function CatalogPage({ params }: PageProps) {
+    const catalogId = parseInt((await params).id, 10);
 
     let itemCatalog = null;
     let error = '';
