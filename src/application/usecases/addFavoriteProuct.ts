@@ -1,8 +1,10 @@
 import { Product } from '@/domain/entities/Product';
 import { favoriteProductsRepository as repo } from '@/infrastructure/repositories/favoriteProductsRepository';
 
-export function addFavoriteProduct(product: Product) {
-    const list = repo.fetch();
+export async function addFavoriteProduct(product: Product) {
+    const list = await repo.fetch();
+
+    if (!list) return null;
 
     const hasFavoriteProduct = list.find((p) => p.id === product.id);
     if (!hasFavoriteProduct) {
