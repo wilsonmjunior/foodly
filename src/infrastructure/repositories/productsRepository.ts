@@ -5,7 +5,7 @@ import { api } from '../api';
 export const productsRepository = {
     async getProductDetails(productId: number) {
         try {
-            const responseProducts = await api.get<Product[]>(`products/${productId}`);
+            const responseProducts = await api.get<Product>(`products/${productId}`);
             return responseProducts.data;
         } catch (error) {
             console.log('Erro na requisição:', error);
