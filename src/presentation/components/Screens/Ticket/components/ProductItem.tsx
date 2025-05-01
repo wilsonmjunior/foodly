@@ -53,7 +53,7 @@ export function ProductItem({ product, quantity, observation, options }: Product
             <ListOptions options={options} />
 
             {observation && (
-                <div className="mt-2 text-sm bg-[#F5F6F9] rounded p-2 text-neutral-700">
+                <div className="mt-2 text-sm bg-neutral-50 rounded p-2 text-neutral-700">
                     <p className="text-xs text-neutral-700">
                         <span className="font-bold">observação: </span>
                         <span className="font-semibold">{observation}</span>
