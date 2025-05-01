@@ -9,7 +9,9 @@ type ToastErrorProps = {
 
 export function ToastError({ message }: ToastErrorProps) {
     useEffect(() => {
-        toast.error(message);
+        if (message) {
+            toast.error(message);
+        }
     }, [message]);
 
     return null;
