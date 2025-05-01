@@ -26,13 +26,14 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                 <div className="flex-1 bg-white">
                     <div className="p-4">
                         <div className="flex flex-row items-center">
-                            <Image
-                                src={itemCatalog.image}
-                                alt={itemCatalog.name}
-                                width={72}
-                                height={72}
-                                className="rounded-xl object-cover"
-                            />
+                            <div className="relative w-[72px] h-[72px]">
+                                <Image
+                                    src={itemCatalog.image}
+                                    alt={itemCatalog.name}
+                                    fill
+                                    className="object-cover rounded-xl"
+                                />
+                            </div>
                             <h1 className="text-xl font-bold ml-2">{itemCatalog.name}</h1>
                         </div>
 
@@ -117,7 +118,16 @@ export default async function CatalogPage({ params }: { params: { id: string } }
                 </div>
             ) : (
                 <div className="flex flex-1 flex-col justify-center items-center">
-                    <Image src={StoreNotFound} alt="Estabelecimento" width={164} />
+                    <div className="relative w-[164px] h-[164px]">
+                        <Image
+                            src={StoreNotFound}
+                            alt="Estabelecimento"
+                            fill
+                            className="object-contain"
+                            sizes="164px"
+                            style={{ width: '164px', height: '164px' }}
+                        />
+                    </div>
                     <h3 className="text-primary-700">estabelecimento não encontrado</h3>
                 </div>
             )}
