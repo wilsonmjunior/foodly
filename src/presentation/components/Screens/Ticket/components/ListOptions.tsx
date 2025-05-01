@@ -22,7 +22,8 @@ export function ListOptions({ options }: ListOptionsProps) {
             <div className="mt-2 text-sm text-neutral-500">
                 {options.map((option) => (
                     <Fragment key={option.id}>
-                        <span className="font-bold text-xs">{`• ${option.id}`}</span>
+                        <p className="font-bold text-xs">{`• ${option.id}`}</p>
+
                         {typeof option.value === 'string' ? (
                             <p className="text-xs font-semibold text-neutral-500 ml-2">
                                 {option.value}
@@ -48,7 +49,12 @@ export function ListOptions({ options }: ListOptionsProps) {
                                         )}
                                     </div>
                                 ) : (
-                                    <span key={item}>{item}, </span>
+                                    <span
+                                        key={item}
+                                        className="text-xs font-semibold text-neutral-500 ml-2"
+                                    >
+                                        {item} <br />
+                                    </span>
                                 ),
                             )
                         ) : (
