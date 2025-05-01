@@ -1,0 +1,499 @@
+[
+    {
+        "id": 101,
+        "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80",
+        "title": "Califórnia",
+        "price": 13.99,
+        "description": "Kani, pepino e maçã ou manga",
+        "categoryId": 1,
+        "establishment": {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.7
+        },
+        "options": [
+            {
+                "id": "bebidas",
+                "title": "vai querer bebida?",
+                "type": "quantity",
+                "min": 0,
+                "max": 99,
+                "items": [
+                    {
+                        "id": "coca",
+                        "label": "coca-cola",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "fanta",
+                        "label": "fanta laranja",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "guarana",
+                        "label": "guaraná antarctica",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "suco",
+                        "label": "suco prats laranja",
+                        "price": 6,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "agua",
+                        "label": "água sem gás",
+                        "price": 3,
+                        "quantity": 0
+                    }
+                ]
+            },
+            {
+                "id": "talher",
+                "title": "precisa de talher?",
+                "type": "radio",
+                "min": 0,
+                "max": 1,
+                "items": [
+                    {
+                        "id": "hashi",
+                        "label": "hashi"
+                    },
+                    {
+                        "id": "descartavel",
+                        "label": "garfo e faca descartável",
+                        "price": 1
+                    }
+                ]
+            },
+            {
+                "id": "adicionais",
+                "title": "mais alguma coisa?",
+                "type": "checkbox",
+                "min": 0,
+                "max": 2,
+                "items": [
+                    {
+                        "id": "biscoito",
+                        "label": "biscoito da sorte",
+                        "price": 2
+                    },
+                    {
+                        "id": "rolinho",
+                        "label": "rolinho primavera",
+                        "price": 8
+                    },
+                    {
+                        "id": "guioza",
+                        "label": "guioza",
+                        "price": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "title": "Filadélfia",
+        "price": 13.99,
+        "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+        "categoryId": 1,
+        "establishment": {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.7
+        },
+        "options": [
+            {
+                "id": "bebidas",
+                "title": "vai querer bebida?",
+                "type": "quantity",
+                "min": 0,
+                "max": 99,
+                "items": [
+                    {
+                        "id": "coca",
+                        "label": "coca-cola",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "fanta",
+                        "label": "fanta laranja",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "guarana",
+                        "label": "guaraná antarctica",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "suco",
+                        "label": "suco prats laranja",
+                        "price": 6,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "agua",
+                        "label": "água sem gás",
+                        "price": 3,
+                        "quantity": 0
+                    }
+                ]
+            },
+            {
+                "id": "talher",
+                "title": "precisa de talher?",
+                "type": "radio",
+                "min": 0,
+                "max": 1,
+                "items": [
+                    {
+                        "id": "hashi",
+                        "label": "hashi"
+                    },
+                    {
+                        "id": "descartavel",
+                        "label": "garfo e faca descartável",
+                        "price": 1
+                    }
+                ]
+            },
+            {
+                "id": "adicionais",
+                "title": "mais alguma coisa?",
+                "type": "checkbox",
+                "min": 0,
+                "max": 2,
+                "items": [
+                    {
+                        "id": "biscoito",
+                        "label": "biscoito da sorte",
+                        "price": 2
+                    },
+                    {
+                        "id": "rolinho",
+                        "label": "rolinho primavera",
+                        "price": 8
+                    },
+                    {
+                        "id": "guioza",
+                        "label": "guioza",
+                        "price": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "title": "Mix",
+        "price": 13.99,
+        "description": "Escolha 3 ingredientes: salmão, atum americano, ricota, pepino, tomate seco, cream cheese, maçã",
+        "categoryId": 1,
+        "establishment": {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.7
+        },
+        "options": [
+            {
+                "id": "bebidas",
+                "title": "vai querer bebida?",
+                "type": "quantity",
+                "min": 0,
+                "max": 99,
+                "items": [
+                    {
+                        "id": "coca",
+                        "label": "coca-cola",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "fanta",
+                        "label": "fanta laranja",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "guarana",
+                        "label": "guaraná antarctica",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "suco",
+                        "label": "suco prats laranja",
+                        "price": 6,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "agua",
+                        "label": "água sem gás",
+                        "price": 3,
+                        "quantity": 0
+                    }
+                ]
+            },
+            {
+                "id": "talher",
+                "title": "precisa de talher?",
+                "type": "radio",
+                "min": 0,
+                "max": 1,
+                "items": [
+                    {
+                        "id": "hashi",
+                        "label": "hashi"
+                    },
+                    {
+                        "id": "descartavel",
+                        "label": "garfo e faca descartável",
+                        "price": 1
+                    }
+                ]
+            },
+            {
+                "id": "adicionais",
+                "title": "mais alguma coisa?",
+                "type": "checkbox",
+                "min": 0,
+                "max": 2,
+                "items": [
+                    {
+                        "id": "biscoito",
+                        "label": "biscoito da sorte",
+                        "price": 2
+                    },
+                    {
+                        "id": "rolinho",
+                        "label": "rolinho primavera",
+                        "price": 8
+                    },
+                    {
+                        "id": "guioza",
+                        "label": "guioza",
+                        "price": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "title": "Salmão picante",
+        "price": 13.99,
+        "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+        "categoryId": 1,
+        "establishment": {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.7
+        },
+        "options": [
+            {
+                "id": "bebidas",
+                "title": "vai querer bebida?",
+                "type": "quantity",
+                "min": 0,
+                "max": 99,
+                "items": [
+                    {
+                        "id": "coca",
+                        "label": "coca-cola",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "fanta",
+                        "label": "fanta laranja",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "guarana",
+                        "label": "guaraná antarctica",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "suco",
+                        "label": "suco prats laranja",
+                        "price": 6,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "agua",
+                        "label": "água sem gás",
+                        "price": 3,
+                        "quantity": 0
+                    }
+                ]
+            },
+            {
+                "id": "talher",
+                "title": "precisa de talher?",
+                "type": "radio",
+                "min": 0,
+                "max": 1,
+                "items": [
+                    {
+                        "id": "hashi",
+                        "label": "hashi"
+                    },
+                    {
+                        "id": "descartavel",
+                        "label": "garfo e faca descartável",
+                        "price": 1
+                    }
+                ]
+            },
+            {
+                "id": "adicionais",
+                "title": "mais alguma coisa?",
+                "type": "checkbox",
+                "min": 0,
+                "max": 2,
+                "items": [
+                    {
+                        "id": "biscoito",
+                        "label": "biscoito da sorte",
+                        "price": 2
+                    },
+                    {
+                        "id": "rolinho",
+                        "label": "rolinho primavera",
+                        "price": 8
+                    },
+                    {
+                        "id": "guioza",
+                        "label": "guioza",
+                        "price": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "title": "Veggie",
+        "price": 12.99,
+        "description": "Alga, arroz, pepino, cenoura, tomate seco e abacate",
+        "isVegan": true,
+        "categoryId": 1,
+        "establishment": {
+            "id": 1,
+            "name": "Matsuri Concept",
+            "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+            "deliveryFee": 0,
+            "deliveryFeeLabel": "grátis",
+            "deliveryFeeColor": "text-mint-600",
+            "rating": 4.7
+        },
+        "options": [
+            {
+                "id": "bebidas",
+                "title": "vai querer bebida?",
+                "type": "quantity",
+                "min": 0,
+                "max": 99,
+                "items": [
+                    {
+                        "id": "coca",
+                        "label": "coca-cola",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "fanta",
+                        "label": "fanta laranja",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "guarana",
+                        "label": "guaraná antarctica",
+                        "price": 5,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "suco",
+                        "label": "suco prats laranja",
+                        "price": 6,
+                        "quantity": 0
+                    },
+                    {
+                        "id": "agua",
+                        "label": "água sem gás",
+                        "price": 3,
+                        "quantity": 0
+                    }
+                ]
+            },
+            {
+                "id": "talher",
+                "title": "precisa de talher?",
+                "type": "radio",
+                "min": 0,
+                "max": 1,
+                "items": [
+                    {
+                        "id": "hashi",
+                        "label": "hashi"
+                    },
+                    {
+                        "id": "descartavel",
+                        "label": "garfo e faca descartável",
+                        "price": 1
+                    }
+                ]
+            },
+            {
+                "id": "adicionais",
+                "title": "mais alguma coisa?",
+                "type": "checkbox",
+                "min": 0,
+                "max": 2,
+                "items": [
+                    {
+                        "id": "biscoito",
+                        "label": "biscoito da sorte",
+                        "price": 2
+                    },
+                    {
+                        "id": "rolinho",
+                        "label": "rolinho primavera",
+                        "price": 8
+                    },
+                    {
+                        "id": "guioza",
+                        "label": "guioza",
+                        "price": 6
+                    }
+                ]
+            }
+        ]
+    }
+]

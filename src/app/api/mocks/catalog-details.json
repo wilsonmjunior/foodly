@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Matsuri Concept",
+        "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+        "deliveryFee": 0,
+        "deliveryFeeLabel": "grátis",
+        "deliveryFeeColor": "text-mint-600",
+        "rating": 4.7,
+        "address": "Rua das Flores, 123 - Centro",
+        "deliveryTime": "30-40 min",
+        "distance": "5.2km",
+        "freeDeliveryMinimum": 35.00,
+        "minimumOrder": 15.00,
+        "openUntil": "20:00",
+        "categories": [
+            {
+                "id": 1,
+                "name": "Temakis",
+                "icon": "",
+                "image": "",
+                "items": [
+                    {
+                        "id": 101,
+                        "title": "Califórnia",
+                        "description": "Kani, pepino e maçã ou manga",
+                        "price": 13.99,
+                        "originalPrice": 17.90,
+                        "hasPromo": true
+                    },
+                    {
+                        "id": 102,
+                        "title": "Filadélfia",
+                        "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+                        "price": 13.99
+                    },
+                    {
+                        "id": 103,
+                        "title": "Mix",
+                        "description": "Escolha 3 ingredientes: salmão, atum americano, ricota, pepino, tomate seco, cream cheese, maçã",
+                        "price": 13.99
+                    },
+                    {
+                        "id": 104,
+                        "title": "Salmão picante",
+                        "description": "Alga, arroz, salmão fresco, pimenta e cebolinha",
+                        "price": 13.99
+                    },
+                    {
+                        "id": 105,
+                        "title": "Veggie",
+                        "description": "Alga, arroz, pepino, cenoura, tomate seco e abacate",
+                        "price": 12.99,
+                        "isVegan": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Bebidas",
+                "icon": "",
+                "image": "",
+                "items": [
+                    {
+                        "id": 201,
+                        "title": "Água mineral",
+                        "description": "500ml",
+                        "price": 3.50
+                    },
+                    {
+                        "id": 202,
+                        "title": "Refrigerante",
+                        "description": "Lata 350ml",
+                        "price": 5.99
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Sobremesas",
+                "icon": "",
+                "image": "",
+                "items": [
+                    {
+                        "id": 301,
+                        "title": "Pudim",
+                        "description": "Pudim de leite condensado tradicional",
+                        "price": 9.99
+                    },
+                    {
+                        "id": 302,
+                        "title": "Sorvete",
+                        "description": "Bola de sorvete (chocolate, morango ou creme)",
+                        "price": 7.50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Subway - Avenida center",
+        "image": "https://static.cdnlogo.com/logos/m/82/mcdonald-s.svg",
+        "deliveryFee": 6,
+        "deliveryFeeLabel": "R$6,00",
+        "deliveryFeeColor": "text-purple-600",
+        "rating": 4.7,
+        "address": "Avenida Brasil, 456 - Centro",
+        "deliveryTime": "40-50 min",
+        "distance": "3.5km",
+        "freeDeliveryMinimum": 25.00,
+        "minimumOrder": 20.00,
+        "openUntil": "22:00",
+        "categories": [
+            {
+                "id": 1,
+                "name": "Sanduíches",
+                "icon": "",
+                "image": "",
+                "items": [
+                    {
+                        "id": 101,
+                        "title": "Frango",
+                        "description": "Peito de frango desfiado com maionese",
+                        "price": 23.99
+                    },
+                    {
+                        "id": 102,
+                        "title": "Vegetariano",
+                        "description": "Queijo, alface, tomate, cebola, pimentão",
+                        "price": 19.99,
+                        "isVegan": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Bebidas",
+                "icon": "",
+                "image": "",
+                "items": [
+                    {
+                        "id": 201,
+                        "title": "Refrigerante",
+                        "description": "500ml",
+                        "price": 6.50
+                    }
+                ]
+            }
+        ]
+    }
+]

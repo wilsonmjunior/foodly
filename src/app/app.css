@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-primary-200: #eecffc;
+    --color-primary-500: #7b1fa2;
+    --color-primary-700: #580f78;
+
+    --color-neutral-50: '#F5F6F9';
+    --color-neutral-100: #eef0f5;
+    --color-neutral-500: #6d6f73;
+    --color-neutral-700: #393a3c;
+    --color-neutral-900: #202326;
+
+    --color-yellow-500: #ffb300;
+
+    --color-green-500: #02a117;
+
+    --color-teal-50: #f2fafa;
+    --color-teal-400: #00a296;
+    --color-teal-600: #027a7a;
+}
+
+@layer base {
+    html {
+        @apply bg-gray-50 text-gray-900 font-sans antialiased;
+    }
+
+    body {
+        @apply bg-gray-50 text-gray-900;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-gray-900 font-bold;
+    }
+
+    p {
+        @apply text-neutral-700;
+    }
+}
+
+/* Adicione aqui seus utilitários ou componentes customizados */
