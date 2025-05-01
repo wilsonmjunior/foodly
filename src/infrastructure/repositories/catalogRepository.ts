@@ -9,8 +9,8 @@ export const catalogRepository = {
             const catalog = response.data;
             return catalog || [];
         } catch (error) {
-            console.log('delta:error:: ', error);
-            throw ApiError(error, 'Erro ao carregar catalogo. Tente novamente mais tarde.');
+            console.log('error:: ', error);
+            throw ApiError(null, 'Erro ao carregar catalogo. Tente novamente mais tarde.');
         }
     },
     async getItemCatalog(catalogId: number) {
@@ -24,8 +24,9 @@ export const catalogRepository = {
             const responseCatalog = await api.get<Catalog>(`catalog/${catalogId}`);
             const catalog = responseCatalog.data;
             return catalog;
-        } catch (error) {
-            throw ApiError(error, 'Erro ao carregar estabelecimento. Tente novamente mais tarde.');
+        } catch (error: unknown) {
+            console.log('error: ', error);
+            throw ApiError(null, 'Erro ao carregar estabelecimento. Tente novamente mais tarde.');
         }
     },
 };

@@ -8,9 +8,9 @@ export const productsRepository = {
             const responseProducts = await api.get<Product>(`products/${productId}`);
             return responseProducts.data;
         } catch (error) {
-            console.log('Erro na requisição:', error);
+            console.log('error: ', error);
             throw ApiError(
-                error,
+                null,
                 'Erro ao carregar detalhes do produto. Tente novamente mais tarde.',
             );
         }
